@@ -394,6 +394,11 @@ if task == 'Data Visualization':
         The dataset page and competition results are availabel 
         [here](https://stanfordmlgroup.github.io/competitions/mrnet/).
         """)
+
+
+link = '[github](https://github.com/GolaraJ/MRNet-app)'
+st.sidebar.markdown(link, unsafe_allow_html=True)
+
 # print(cases['0000'].keys())
 # print(cases['0000']['axial'].shape)
 # print(cases['0000']['coronal'].shape)
